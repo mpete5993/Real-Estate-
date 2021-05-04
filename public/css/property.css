@@ -1,0 +1,711 @@
+/*======= property-search ==========*/
+
+.search-property{
+    background-color: #050e0e;
+    z-index:0;
+}
+.property-title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+}
+.property-title h5{ 
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+}
+.property-title ul{
+    display: flex;
+    padding: 0;
+}
+.property-title ul li{
+    padding: 5px;
+    display: flex;
+    font-size: 12px;
+    color: #fff;
+}
+.property-title ul li a{
+    display: flex;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+/* .property-search{
+
+} */
+.search-input{
+    height: 60px;
+    float: right;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+}
+.search-input input{
+    height: 100%;
+    border: 0;
+    padding: 5px;
+    font-size: 12px;
+    outline: none;
+}
+   
+.search-input button{
+    height: 100%;
+    width: 50px;
+    font-size: 12px;
+    border: 0;
+    cursor: pointer;
+    background: #fff;
+}
+.search-input button:focus{
+    outline: none;
+}
+/*======= property-search{ ==========*/
+
+
+
+
+/*======= property-details==========*/
+.property-details{
+    background: #f8f9fa!important;
+}
+.property-count{
+    padding: 10px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.property-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+	background-color: #1ad6d600;
+	
+}
+.property-container .tabs{
+	height: 50px;
+	background-color: #1ad6d600;
+	
+}
+.property-container .tabs button{
+	height: 50px;
+	width: 150px;
+	border: 0;
+	background-color: #dee4e4;
+	color:#050e0e;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.property-container .tabs button:focus{
+    outline: none;
+}
+.property-container .tab-panel{
+	height: 500px;
+	background-color: #050e0e;
+	
+}
+.property-container .tab-panel .location{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0px;
+	border: 2px solid #050e0e;
+	
+}
+.details-img{
+    width: 100%;
+    height: 380px;
+}
+.details-img img{
+    width: 100%;
+    height: 380px;
+    padding: 2px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.details-img img:hover{
+    opacity: 0.8;
+}
+.img-gallery{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(128, 0, 0, 0);
+}
+.img-gallery div{
+    width: 30%;
+    height: 120px;
+    padding: 2px;
+}
+.img-gallery div img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.property-agent{
+    display: flex;
+    width: 100%;
+    background-color: rgba(171, 173, 168, 0.021);
+}
+.agent-header{
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px dotted #dee4e4;
+    border-top: 1px dotted #dee4e4;
+}
+.agent-header h6{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.agent-img {
+    width: 40%;
+    height: 100px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 127, 80, 0);
+}
+.agent-img img{ 
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.property-agent .agent-details{
+    width: 50%;
+}
+.property-agent .agent-details h6{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+.property-agent .agent-details ul{
+    font-size: 10px;
+    padding: 10px;
+}
+
+.property-agent .agent-details ul li a{
+    margin-top: 20px;
+    color: #050e0e;
+    text-decoration: none;
+}
+
+.more-info{
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px dotted;
+    margin-bottom: 15px;
+}
+.more-info h6{
+    font-size: 12px;
+}
+.request-details input{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #050e0e;
+    font-size: 12px;
+    padding: 10px;
+}
+.request-details button{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #fff;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #050e0e;
+    color: #dee4e4;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.request-details button:hover{
+    background-color: #fff;
+    border: 1px solid #050e0e;
+    color: #050e0e;
+}
+
+
+
+
+.property-infomation{
+    margin-top: 30px;
+    margin-bottom: 20px;
+	background-color: #fff;
+}
+.general-info h5{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.general-info p{
+    font-size: 12px;
+}
+.features h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/*======= property-details==========*/
+
+
+
+/* ========== Agent =========*/
+.agent-contents{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 30%);
+}
+.agent-contents h6{ 
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.agent-contents p{ 
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.agentHeader{
+    height: 40px;
+    background-color: #050e0e;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.agentHeader h6{
+    padding: 10px;
+    color: #fff;
+}
+.agent-Status{
+    display: block;
+    background-color: #050e0e;
+    height: 30px;
+    color: #fff;
+    width: 80px;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.agent-detail-img {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 500px;
+}
+.agent-detail-img img{
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+.agentDescription{
+    padding: 10px;
+}
+.agentDescription .tabs{
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    border-bottom: 1px solid #ddd;
+    
+}
+.agentDescription .tabs button{
+    height: 80%;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.agentDescription .tab-panel{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.agentDescription .form-inputs input, select{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    outline: none;
+    background-color: transparent;
+}
+.tab-panel button{
+    height: 40px;
+    width: 60px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: #050e0e;
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* ========== Agent =========*/
+
+
+
+
+.register-container{
+    height: 565px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 10px;
+}
+.register-form{
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+    background-color: #f8f9fa;
+    opacity: 1;
+}
+.register-form h6{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.register-form input{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 45px;
+    font-size: 12px;
+    padding: 10px;
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.valid{
+    border: 1px solid #63c545;
+}
+.invalid{
+    border: 1px solid #c54545;
+}
+.register-form input[type="checkbox"]{
+    float: left;
+    height: 15px;
+    width: 15px;
+    color: #fff;
+}
+.register-form span{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.register-form span a{
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+.register-form select{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    font-size: 12px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #fff;
+}
+.register-form button{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 40px;
+    font-size: 12px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #050e0e;
+    background-color: #050e0e;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.register-form button:hover{
+    border: 1px solid #050e0e;
+    background-color: #fff;
+    color: #050e0e;
+}
+
+.input-validation,
+.email-validation,
+.password-validation,
+.passwordConfirm-validation{
+    display: none;
+    font-size: 12px;
+    color:red
+}
+
+@media (max-width: 790px){
+    /*======= property-search ==========*/
+    .property-search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #54c02a00;
+        width:100%;
+    }
+    .search-input{
+        height: 60px;
+        padding: 10px;
+        margin-top: 20px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-input input{
+        width: 300px;
+        height: 40px;
+        border: 0;
+        padding: 5px;
+        font-size: 12px;
+        outline: none;
+    }
+    .search-input button{
+        height: 40px;
+        width: 50px;
+        font-size: 12px;
+        border: 0;
+        cursor: pointer;
+    }
+    /*======= property-search ==========*/
+
+
+
+    /*==== property details =====*/
+    .property-container .tabs{
+        height: 50px;
+        background-color: #1ad6d600;
+        
+    }
+    .property-container .tabs button{
+        height: 40px;
+        width: 100px;
+        border: 0;
+        background-color: #dee4e4;
+        color:#050e0e;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    
+    .details-img img{
+        width: 100%;
+        height: 330px;
+        padding: 2px;
+        object-fit: fill;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .img-gallery div{
+        position: relative;
+        top: -50px;
+        width: 30%;
+        height: 80px;
+        padding: 2px;
+    }
+    .img-gallery div img{
+        width: 100%;
+        height: 80%;
+        object-fit: fill;
+        opacity: 0.2;
+        cursor: pointer;
+    }
+    .property-container .tab-panel{
+        height: 400px;
+        background-color: #050e0e;
+        
+    }
+    .agent-img {
+        width: 40%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 127, 80, 0);
+    }
+    .agent-img img{ 
+        position:relative;
+        top:20px;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+        object-fit: fill;
+        border-radius: 10px;
+
+        padding: 10px;
+    }
+
+
+    /*==== property details =====*/
+}
+@media (max-width: 400px){
+    /*======= property-search ==========*/
+    .property-search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #54c02a00;
+        width:100%;
+        z-index:0;
+    }
+    .search-input{
+        height: 60px;
+        padding: 10px;
+        margin-top: 20px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-input input{
+        width: 200px;
+        height: 40px;
+        border: 0;
+        padding: 5px;
+        font-size: 12px;
+        outline: none;
+    }
+    .search-input button{
+        height: 40px;
+        width: 50px;
+        font-size: 12px;
+        border: 0;
+        cursor: pointer;
+    }
+    /*======= property-search ==========*/
+
+
+        /*==== property details =====*/
+        .property-container .tabs{
+            height: 50px;
+            background-color: #1ad6d600;
+            
+        }
+        .property-container .tabs button{
+            height: 40px;
+            width: 80px;
+            border: 0;
+            background-color: #dee4e4;
+            color:#050e0e;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .details-img img{
+            width: 100%;
+            height: 200px;
+            padding: 2px;
+            object-fit: fill;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .img-gallery{
+            display: flex;
+            width: 100%;
+            height: 100px;
+            background-color: rgba(128, 0, 0, 0);
+        }
+        .img-gallery div{
+            position: relative;
+            top: -180px;
+            width: 30%;
+            height: 60px;
+            padding: 2px;
+        }
+        .img-gallery div img{
+            width: 100%;
+            height: 80%;
+            object-fit: fill;
+            opacity: 0.2;
+            cursor: pointer;
+        }
+        .property-container .tab-panel{
+            height: 250px;
+            background-color: #050e0e;
+            
+        }
+        .agent-img {
+            width: 40%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 127, 80, 0);
+        }
+        .agent-img img{ 
+            position:relative;
+            top:20px;
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+            object-fit: fill;
+            border-radius: 10px;
+    
+            padding: 10px;
+        }
+        .agent-detail-img {
+            display: block;
+            padding: 10px;
+            width: 100%;
+            height: 300px;
+        }
+        .agent-detail-img img{
+            width: 100%;
+            height: 280px;
+            object-fit: fill;
+        }
+        
+    
+    
+        /*==== property details =====*/
+
+
+}

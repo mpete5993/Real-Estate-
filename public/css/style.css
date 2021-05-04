@@ -1,0 +1,1194 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box
+}
+
+html{
+	scroll-behavior: smooth;
+}
+/*======= HEADER =======*/
+.navbar{
+	padding: 0px;
+	background-color: #f8f9fa;
+	height: 70px;
+	
+}
+
+/*======= LOGO ========*/
+
+.logo{
+	margin-left: 40px;
+}
+.logo h4{
+	color: #333;
+	font-size: 15px;
+	font-weight: bolder;
+	display: flex;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo h4 a 
+{
+	color: #050e0e;
+	text-decoration: none;
+	
+}
+/* .logo h4 a:hover
+{
+	color: #a9143f;
+} */
+
+/*======= LOGO ========*/
+
+
+
+/*======= navbar content ========*/
+.content{
+	display: flex;
+	z-index:100;
+} 
+.icon-btn{
+	display: none;
+}
+.menu-list {
+	display: flex;
+	margin-right: 100px;
+}
+.menu-list li{
+	margin-left:20px;
+	list-style: none;
+	font-size: 12px;
+	
+}
+.menu-list li a{
+	text-transform: uppercase;
+	display: inline-block;
+	color: #050e0e;
+	text-decoration: none;
+	line-height: 70px;
+	text-decoration: none;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.menu-list li a:hover
+{
+	color: #fff;
+	background: #050e0e;
+}
+
+.signup {
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.signup a{
+	display:inline-block;
+	margin: 10px;
+	background-color: #050e0e;
+	font-size: 10px;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	padding: 3px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+}
+.signup a:hover{
+	color: #050e0e;
+	border: 2px solid #050e0e;
+	background: #fff;
+}
+/* .responsive-navbar{
+	position: fixed;
+	width: 100%;
+	height: 500px;
+	background-color: black;
+} */
+
+
+/* Dropdown Button */
+.avatar{
+	height: 30px;
+	width: 30px;
+	position: relative;
+	top:20px;
+	margin-right: 10px;
+	border-radius:20px;
+	object-fit: cover;
+}
+.dropbtn {
+	background-color: transparent;
+	color: 050e0e;
+	padding: 10px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+	background-color: transparent;
+	outline: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	padding: 10px;
+	right:15px;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	right: 10px;
+	background-color: #050e0e;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	font-size: 12px;
+	color: #fff;
+	padding:5px 10px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+	color: #050e0e;
+	background-color: #fff
+	}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+
+/*======= navbar content ========*/
+
+
+
+
+/*======= HEADER =======*/
+
+
+
+
+/*======= slider =======*/
+.wrapper{
+	position:relative;
+	width: 100%;
+	overflow: hidden;
+}
+.slides-container{
+	height: 500px;
+	position: relative;
+	transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+}
+.slide-image{
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.slide-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.next-btn, 
+.prev-btn{
+	background-color: #fff;
+	padding: 16px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 20px;
+	z-index: 100;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.next-btn:hover,
+.prev-btn:hover{
+	background-color: #050e0e;
+	color: #fff;
+}
+.next-btn{
+	right: 0;
+}
+.prev-btn{
+	left: 0;
+}
+.navigation-dots{
+	position: relative;
+	top:-30px;
+	display: flex;
+	height: 0px;
+	align-items: center;
+	justify-content: center;
+	margin: 16px 0;
+}
+.single-dot{
+	background-color: #333;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.5s;
+	margin: 0 5px ;
+}
+.single-dot.active{
+	background-color: #fff;
+}
+.searchProperty{
+	width: 100%;
+	position: relative;
+	top:-160px;
+	display: flex;
+	height: 80px;
+	align-items: center;
+	justify-content: center;
+	margin: 16px 0;
+	padding: 50px;
+	
+}
+#search-content{
+	background-color: rgba(255, 255, 255, 0.322);
+	height: 80px;
+	padding: 20px;
+	border-radius: 2px;
+}
+.searchProperty input{
+	width: 95%;
+	height: 40px;
+	border: 1px solid #ddd;
+	padding: 10px;
+	font-size: 12px;
+	outline: none;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.property-btn{
+	height: 40px;
+	width: 40px;
+	border: 0;
+	background-color: #050e0e;
+	color: #f8f9fa;
+	cursor: pointer;
+	
+}
+.property-btn:focus{
+	outline: none;
+}
+
+/*======= slider =======*/
+
+
+
+
+
+/*======= search =======*/
+.s-section{
+	background-color: #f8f9fa;
+}
+.search-container
+{
+	position: relative;
+	top: -30px;
+	background-color: #f8f9fa;
+	height: 200px;
+	width: 100%;
+}
+.tab-container .tabs{
+	height: 25%;
+	background-color: #1ad6d600;
+	
+}
+.tab-container .tabs button{
+	height: 100%;
+	width: 150px;
+	border: 0;
+	background-color: #fff;
+	color:#050e0e;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	cursor: pointer;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 12px;
+}
+.tab-container .tabs button:focus{
+	outline:none;
+}
+.tab-container .tab-panel{
+	height: 75%;
+	background-color: #d61a1a00;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tab-container .tab-panel .location{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0px;
+	border: 1px solid #050e0e;
+	font-size: 12px;
+}
+.tab-container .tab-panel .location input{
+	padding: 5px;
+	width: 100%;
+	background-color: #fff;
+	margin-left: 10px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	background-color: transparent;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.tab-container .tab-panel .property-type{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0px;
+	border: 1px solid #050e0e;
+	font-size: 12px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.tab-container .tab-panel .property-type select{
+	width: 100%;
+	border: 0;
+	outline: none;
+	background-color: transparent;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.tab-container .tab-panel .property-price{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0px;
+	border: 1px solid #050e0e;
+	font-size: 12px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.tab-container .tab-panel .property-price select{
+	width: 100%;
+	border: 0;
+	outline: none;
+	background-color: transparent;
+}
+.tab-container .tab-panel .bedroom{
+	display: flex;
+}
+.tab-container .tab-panel .property-bedroom{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+	width: 70%;
+	background-color: #fff;
+	border-radius: 0px;
+	font-size: 12px;
+	border: 1px solid #050e0e;
+}
+.tab-container .tab-panel .property-bedroom select{
+	width: 70%;
+	border: 0;
+	outline: none;
+	background-color: transparent;
+}
+.search{
+	margin-top: 10px;
+	padding: 10px;
+	width: 80px;
+	height: 80%;
+	margin-left: 5px;
+	border-radius: 3px;
+	border: 0;
+	color: #fff;
+	background-color: #050e0e;
+	cursor: pointer;
+	font-size: 12px;
+}
+.search:focus{
+	outline:none;
+}
+
+
+
+/*======= search =======*/
+
+
+
+/*======= Property List =======*/
+.property-container{
+	background-color: rgb(234, 235, 236);
+}
+#property-header{
+	padding: 0px;
+	height: 30px;
+	background-color: #33333300;
+	margin-bottom: 30px;
+}
+#property-header h5{
+	color: #050e0e;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+/* #property-header div *{
+	
+} */
+.viewmore{
+	float: right;
+	color: #fff;
+}
+.viewmore a{
+	display: inline-block;
+	height: 30px;
+	width: 80px;
+	text-align: center;
+	padding: 5px;
+	background-color: #050e0e;
+	color: rgb(22, 20, 17);
+	text-decoration: none;
+	font-size: 12px;
+	margin-bottom: 10px;
+	transition: 0.5s;
+	color: #fff;
+}
+.viewmore a:hover{
+	background-color: #fff;
+	color: #050e0e;
+	border: 1px solid #050e0e;
+}
+
+.property-item{
+	width: 100%;
+	background-color: #f8f9fa!important;
+	padding: 5px;
+	border-radius: 0px;
+	transition: 0.2s;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 5px rgb(0 0 0 / 10%);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .property-item:hover{
+	border: 5px solid rgb(22, 21, 20);
+	background-color: #dfb162ff;
+	cursor: pointer;
+} */
+.property-img{
+	width: 100%;
+}
+.property-img img{
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+}
+.property-info{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: rgb(234, 235, 236);
+	color: #050e0e;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 5px;
+}
+.property-info .title{
+	border-bottom:1px dotted ;
+}
+.property-info .title h6{
+	margin-left: 5px;
+	margin-right: 10px;
+	font-size: 15px;
+	padding: 5px;
+	font-weight: bold;
+}
+.property-details ul li {
+	list-style:none;
+}
+.property-details ul li i{
+	margin-left: 5px;
+	margin-right: 10px;
+	font-size: 10px;
+	list-style:none;
+}
+
+.property-details ul li span{
+	margin-left: 5px;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.property-status .status{
+	display: inline-block;
+	margin-right: 10px;
+	background-color: #050e0e;
+	color: #fff;
+	font-size: 12px;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	border-radius: 0px;
+	text-decoration: none;
+	transition: 0.5s;
+	margin-bottom: 10px;
+}
+.property-status .status:hover{
+	border: 2px solid #050e0e;
+	background-color: #fff;
+	color: #050e0e;
+}
+.property-status span {
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.page-span{
+	display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.page-span span{
+	display: inline;
+	padding: 5px;
+}
+ul.pagination li {
+	display: inline;
+	padding: 5px;
+}
+ul.pagination li a {
+    color: #fff;
+    float: left;
+    padding: 8px 16px;
+	text-decoration: none;
+	background-color: #050e0e;
+	transition: background-color .3s;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+ul.pagination li a:hover{
+	background-color: #fff;
+	color: #050e0e;
+}
+ul.pagination li a.active {
+    background-color: #777;
+    color: white;
+}
+
+
+/*======= Property List =======*/
+
+/*======= Latest Post =======*/
+.post-container{
+	background-color: #f8f9fa!important;
+}
+.latest_post_container{
+	background-color: #ffffff;
+	padding: 2px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	margin-right: 1px;
+}
+.post-content{
+	background-color: rgba(234, 235, 236, 0);
+}
+.latest_post_img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+
+}
+.latest_post_img img{
+	width: 100%;
+	height: 100%;
+	
+}
+.latest_post_content{
+	margin-top: 10px;
+}
+.latest_post_content h6{
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*Testimonials*/
+.Testimonials_header{
+	margin-top: 50px;
+}
+.Testimonials_header h2{
+	font-weight: 900;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: italic;
+}
+.Testimonials {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 10px 3px #f6f6f6;
+	margin-bottom: 50px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.Testimonials h6{
+	font-weight: bold;
+	
+}
+.quote_icon{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+	background: #050e0e;
+	color: #ffffff;
+	z-index: 3;
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.quote_icon i{
+	color: #ffffff;
+    font-size: 20px;
+    display: block;
+    padding: 20px 0;
+}
+.inner-content{
+	position: relative;
+    display: block;
+    padding: 55px 30px 52px;
+    background: #ffffff;
+}
+.client-info{
+	position: relative;
+    display: block;
+    padding-bottom: 22px;
+}
+.client-info h3{
+	color: #3a3a3a;
+    font-weight: 600;
+	margin: 0 0 3px;
+	font-size: 20px;
+	line-height: 26px;
+	margin-left:50px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.client-info span{
+	color: #3a3a3a;
+	margin: 0 0 3px;
+	font-size: 15px;
+	line-height: 26px;
+	margin-left:50px
+}
+.inner-content .img-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 2;
+}
+.single-testimonial-item:hover .inner-content .img-box img {
+    transform: rotate(360deg);
+}
+.single-testimonial-item .inner-content .img-box img {
+    width: 100%;
+    transition: all 700ms ease 800ms;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.single-testimonial-item .inner-content .text-box {
+    position: relative;
+    display: block;
+	padding-top: 24px;
+	text-align: center;
+}
+
+.scroll-to-top-style2 {
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    background: #050e0e;
+    border: 2px solid #050e0e;
+    width: 55px;
+    height: 55px;
+    border-radius: 0%;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: normal;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    transition: all 500ms ease 0s;
+    z-index: 9999999999999;
+    box-shadow: 0px 8px 23px -6px rgb(27 27 27);
+}
+
+
+
+/*Testimonials*/
+
+
+
+/*======= Latest Post =======*/
+
+
+/*======= Latest Post =======*/
+.footer{
+	background-color: #050e0e;
+}
+.main-links h6{
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+.main-links{
+	margin-top: 20px;
+	padding: 20px;
+}
+.main-links ul li{
+	list-style: none;
+	margin-top:10px;
+}
+.main-links ul li a{
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contact-info{
+	margin-top: 20px;
+	padding: 20px;
+}
+.contact-info h6{
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.contact-info p{
+	color: #fff;
+	font-size: 12px;
+}
+.contact-info ul li{
+	color: #fff;
+	font-size: 12px;
+	list-style: none;
+	margin-top:10px;
+}
+
+.Newsletter{
+	margin-top: 20px;
+	padding: 20px;
+}
+.Newsletter h6{
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.Newsletter p{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 12px;
+}
+.Newsletter .subscription input {
+	height: 30px;
+	border: 0;
+	background-color: #fff;
+	padding: 5px;
+	font-size: 12px;
+	outline: none;
+	border: 2px solid grey;
+	width:75%;
+	border-radius: 2px;
+}
+.Newsletter .subscription button{
+	width: 40px;
+	height: 30px;
+	border: 2px solid grey;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+#footer-content{
+	border-bottom: 2px solid #fff;
+	margin-bottom: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.signature{
+	font-size: 12px;
+	color:rgba(255, 255, 255, 0.61);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.social-links ul{
+	display: flex;
+	float: right;
+}
+.social-links ul li{
+	margin:0 8px;	
+	list-style: none;
+}
+.social-links ul li a{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 2px;
+	background-color: #050e0e;
+	color: #fff;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	transition: 0.8s;
+}
+.social-links ul li a:hover{
+	border: 2px solid #fff;
+	background-color: #fff;
+	color: #050e0e;
+}
+
+
+
+
+
+/*======= Latest Post =======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====== RESPONSIVE ======	*/
+@media (max-width:1050px){
+	.logo {
+		margin-left: 10px;
+	}
+	.content{
+		position: absolute;
+		background: #060607;
+		border-top: 1px solid #333333;
+		top: 70px;
+		left: -100%;
+		display: block;
+		height: 600px;
+		width: 765px;
+		transition: 0.8s;
+		z-index:100;
+		overflow-x: hidden;
+	} 
+	.active{
+		left: 0%;
+	}
+	.signup a{
+		display:block;
+	}
+	.show{
+		display: block;
+	}
+
+	.menu-list{
+		display: block;
+		margin-top: 20px;
+		
+	}
+	.menu-list li{
+		width: 100%;
+	}
+	.menu-list li a{
+		text-decoration: none;
+		width: 100%;
+		line-height: 30px;
+		text-decoration: none;
+		font-family: 'Courier New', Courier, monospace;
+		color:#fff;
+	}
+	.icon-btn{
+		display: block;
+		border: 0;
+		background-color: transparent;
+		color: #050e0e;
+		cursor: pointer;
+	}
+	.icon-btn.show{
+		display: block;
+	}
+
+	.icon-btn:focus{
+
+		outline: none;
+	}
+	.icon-bars{
+		position: absolute;
+		right: 10px;
+		font-size: 20px;
+	}
+	.icon-cancel{
+		position: absolute;
+		right: 10px;
+	}
+	#menu-cancel{
+		color:#fff;
+	}
+
+/*======= slider =======*/
+
+	.slide-container{
+		height: 300px;
+		background-color: #dfdfdf;
+		border-top: 1px solid #333333;
+	}
+	.slide-container .img-container{
+		height: 100%;
+	}
+
+/*======= slider =======*/
+
+.viewmore{
+	float: left;
+	color: #dfb162ff;
+}
+}
+
+/*====== */
+@media (max-width:765px){
+	.logo {
+		margin-left: 10px;
+	}
+	.content{
+		position: absolute;
+		background: #060607;
+		border-top: 1px solid #333333;
+		top: 70px;
+		left: -100%;
+		display: block;
+		height: 600px;
+		width: 405px;
+		transition: 0.8s;
+		z-index:100;
+		overflow-x: hidden;
+	} 
+	.active{
+		left: 0%;
+	}
+	/*======= slider =======*/
+	.wrapper{
+		display: block;
+	}
+	.s-section{
+		margin-top: 20px;
+		height: 400px;
+	}
+	.search-container{
+		display: block;
+	}
+	
+	.tab-container .tabs button{
+		height: 40px;
+		width: 80px;
+		border: 0;
+		background-color: #fff;
+		color:#050e0e;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		cursor: pointer;
+		font-size: 12px;
+	}
+	.tab-container .tab-panel{
+		height: 75%;
+		background-color: #d61a1a00;
+		
+	}
+	.tab-container .tab-panel .location{
+		margin-top: 5px;
+		margin-bottom: 10px;
+		padding: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height:30px;
+		width: 100%;
+		background-color: #fff;
+		border-radius: 0px;
+		border: 1px solid #050e0e;
+		font-size: 12px;
+	}
+
+
+.tab-container .tab-panel .property-type{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0px;
+	border: 1px solid #050e0e;
+	font-size: 12px;
+}
+.tab-container .tab-panel .property-type select{
+	width: 100%;
+	border: 0;
+	outline: none;
+	background-color: transparent;
+}
+.tab-container .tab-panel .property-price{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0px;
+	border: 1px solid #050e0e;
+	font-size: 12px;
+}
+.tab-container .tab-panel .property-price select{
+	width: 100%;
+	border: 0;
+	outline: none;
+	background-color: transparent;
+}
+.tab-container .tab-panel .bedroom{
+	display: flex;
+}
+.tab-container .tab-panel .property-bedroom{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	width: 70%;
+	background-color: #fff;
+	border-radius: 0px;
+	font-size: 12px;
+	border: 1px solid #050e0e;
+}
+.search{
+	margin-top: 10px;
+	padding: 5px;
+	width: 80px;
+	height: 30px;
+	margin-left: 5px;
+	border-radius: 3px;
+	border: 0;
+	color: #fff;
+	background-color: #050e0e;
+	cursor: pointer;
+	font-size: 10px;
+}
+	.slide-container{
+		height: 250px;
+		background-color: #dfdfdf;
+		border-top: 1px solid #333333;
+	}
+	.slide-container .img-container{
+		height: 100%;
+	}
+
+/*======= slider =======*/
+
+}
+/*====== */
+@media (max-width:415px){
+	.content{
+		position: absolute;
+		background: #060607;
+		border-top: 1px solid #333333;
+		top: 70px;
+		left: -100%;
+		display: block;
+		height: 600px;
+		width: 355px;
+		transition: 0.8s;
+		z-index:100;
+		overflow-x: hidden;
+	} 
+	.active{
+		left: 0%;
+	}
+	/*======= slider =======*/
+
+	.slide-container{
+		height: 200px;
+		background-color: #dfdfdf;
+		border-top: 1px solid #333333;
+	}
+	.slide-container .img-container{
+		height: 100%;
+	}
+	.searchProperty input{
+		width: 80%;
+		height: 40px;
+		border: 1px solid #ddd;
+		padding: 10px;
+		font-size: 12px;
+		outline: none;
+	}
+/*======= slider =======*/
+
+}

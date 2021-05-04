@@ -1,0 +1,166 @@
+header
+{
+	padding: 0px;
+	background-color: #34393e;
+	height: 70px;
+}
+header h4{
+	color: #dfb162ff;
+	margin-top: 25px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+header h4 a 
+{
+	color: #dfb162ff;
+	text-decoration: none;
+}
+header h4 a:hover
+{
+	color: #dfb162ff;
+	text-decoration: none;
+}
+
+#navbar nav
+{
+	padding: 0px;
+}
+#navbar nav ul
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+#navbar nav ul li
+{
+	display: block-inline;
+	margin-left: 15px;
+	font-size: 15px;
+	color: #dfb162ff;
+	
+}
+
+
+#navbar nav ul li a
+{
+	display: block-inline;
+	color: #dfb162ff;
+	line-height: 70px;
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+#navbar nav ul li:hover
+{
+	border-bottom: 5px solid #dfb162ff;
+	color: #dfb162ff;
+	background: #494d52;
+}
+#signup
+{
+	height: 70px;
+}
+#signup button 
+{
+	position: relative;
+	float: right;
+	margin-left: 5px;
+	background-color: #dfb162ff;
+	border:0;
+	font-size: 12px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	padding: 2px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.8s;
+	font-family: 'Courier New', Courier, monospace;
+	
+}
+#signup button:hover
+{
+	color: #dfb162ff;
+	border: 2px solid #dfb162ff;
+	background: #34393e;
+}
+
+
+
+@media (max-width:918px){
+	
+
+}
+
+
+
+
+
+.tab-container{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 139, 0);
+}
+.tab-container .tabs{
+	height: 25%;
+	background-color: #1ad6d600;
+	
+}
+.tab-container .tabs button{
+	height: 100%;
+	width: 150px;
+	border: 0;
+	background-color: #dee4e4;
+	color:#fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.tab-panel{
+	width: 75%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 99, 71, 0);
+}
+.tab-panel .location {
+	margin-top: 10px;
+	height:45px ;
+	width: 100%;
+	background-color: rgb(173, 63, 44);
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: grey;
+	border: 3px solid grey;
+	border-radius: 5px;
+}
+.tab-panel .location input[type="text"]{
+	height: 30px ;
+	width: 90%;
+	padding: 5px;
+	border: 0ch;
+	background-color: transparent;
+	outline: none;
+}
+.tab-panel .property-type {
+	margin-top: 10px;
+	height:45px ;
+	width: 40%;
+	background-color: rgba(255, 99, 71, 0);
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: grey;
+	border: 3px solid grey;
+	border-radius: 5px;
+}
+.tab-panel .property-type select{
+	width: 100%;
+	height: 100%;
+	border:0;
+	background-color: transparent;
+	color: #fff;
+}

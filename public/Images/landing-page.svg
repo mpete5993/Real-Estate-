@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="landing-page.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient883">
+      <stop
+         style="stop-color:#fdb162;stop-opacity:1;"
+         offset="0"
+         id="stop879" />
+      <stop
+         style="stop-color:#fdb162;stop-opacity:0;"
+         offset="1"
+         id="stop881" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient883"
+       id="linearGradient887"
+       x1="7.2985973"
+       y1="6.73175"
+       x2="52.489635"
+       y2="6.73175"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.28003165,1.6485718)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter874"
+       x="-0.004942648"
+       width="1.0098853"
+       y="-0.013252568"
+       height="1.0265051">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.046162887"
+         id="feGaussianBlur876" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.68"
+     inkscape:cx="396.85039"
+     inkscape:cy="302.88672"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="666"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:0.818703;fill-rule:evenodd;stroke-width:0.299126"
+       id="rect10"
+       width="209.81544"
+       height="16.655022"
+       x="0.40121457"
+       y="0.35262522" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Bold';fill:url(#linearGradient887);fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="6.4356561"
+       y="10.691809"
+       id="text863"><tspan
+         sodipodi:role="line"
+         id="tspan861"
+         x="6.4356561"
+         y="10.691809"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Bold';fill:url(#linearGradient887);fill-opacity:1;stroke-width:0.264583">REAL ESTATE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="69.499557"
+       y="9.0903616"
+       id="text893"><tspan
+         sodipodi:role="line"
+         id="tspan891"
+         x="69.499557"
+         y="9.0903616"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';fill:#ffffff;fill-opacity:1;stroke-width:0.264583">MORTAGE   ABOUT US  BLOG    CONTACT US</tspan></text>
+    <rect
+       style="fill:#dfb162;fill-opacity:1;stroke-width:0.264583"
+       id="rect895"
+       width="13.714542"
+       height="4.7490344"
+       x="174.95772"
+       y="5.6786709"
+       ry="2.3745172" />
+    <rect
+       style="fill:#dfb162;fill-opacity:1;stroke-width:0.264583"
+       id="rect895-5"
+       width="13.714542"
+       height="4.7490344"
+       x="191.89569"
+       y="5.7918434"
+       ry="2.3745172" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="178.24475"
+       y="8.6763325"
+       id="text919"><tspan
+         sodipodi:role="line"
+         id="tspan917"
+         x="178.24475"
+         y="8.6763325"
+         style="stroke-width:0.264583">REGISTER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="196.49533"
+       y="8.7295055"
+       id="text923"><tspan
+         sodipodi:role="line"
+         id="tspan921"
+         x="196.49533"
+         y="8.7295055"
+         style="stroke-width:0.264583">LOGIN</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       id="rect925"
+       width="209.93085"
+       height="60.473839"
+       x="0.40121457"
+       y="17.007647"
+       ry="0" />
+    <rect
+       style="fill:#dfb162;fill-opacity:1;stroke-width:0.264583"
+       id="rect927"
+       width="209.77319"
+       height="36.404179"
+       x="0.40121457"
+       y="77.481483" />
+    <rect
+       style="fill:#dfb162;fill-opacity:1;stroke-width:0.276991"
+       id="rect929"
+       width="157.78836"
+       height="32.158176"
+       x="34.281914"
+       y="77.55043" />
+    <rect
+       style="fill:#dfb162;fill-opacity:1;stroke-width:0.281533;filter:url(#filter874)"
+       id="rect936"
+       width="22.415298"
+       height="8.3599596"
+       x="34.281914"
+       y="69.190475" />
+    <rect
+       style="fill:#000000;fill-opacity:0.820279;stroke-width:0.280378"
+       id="rect938"
+       width="23.327543"
+       height="8.3599644"
+       x="56.697212"
+       y="69.190475" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="40.046394"
+       y="74.321587"
+       id="text942"><tspan
+         sodipodi:role="line"
+         id="tspan940"
+         x="40.046394"
+         y="74.321587"
+         style="font-size:2.11667px;fill:#ffffff;fill-opacity:0.945996;stroke-width:0.264583">FOR SALE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="61.685455"
+       y="74.346352"
+       id="text946"><tspan
+         sodipodi:role="line"
+         id="tspan944"
+         x="61.685455"
+         y="74.346352"
+         style="font-size:2.11667px;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">FOR RENT</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.945996;stroke-width:0.264583"
+       id="rect966"
+       width="95.845482"
+       height="7.5961871"
+       x="38.304325"
+       y="82.005219" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.945996;stroke-width:0.263678"
+       id="rect968"
+       width="42.285572"
+       height="7.5961866"
+       x="141.29625"
+       y="81.998909" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.945996;stroke-width:0.223121"
+       id="rect968-8"
+       width="30.27792"
+       height="7.5961866"
+       x="38.629276"
+       y="95.08432" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.945996;stroke-width:0.26708"
+       id="rect968-9"
+       width="43.383438"
+       height="7.5961866"
+       x="78.909523"
+       y="95.287483" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.945996;stroke-width:0.222071"
+       id="rect968-6"
+       width="29.993572"
+       height="7.5961866"
+       x="129.17061"
+       y="95.125504"
+       inkscape:transform-center-x="-17.078719"
+       inkscape:transform-center-y="-0.92633016" />
+    <rect
+       style="fill:#191919;fill-opacity:0.945996;stroke-width:0.167015"
+       id="rect968-96"
+       width="16.965017"
+       height="7.5961866"
+       x="166.38641"
+       y="95.783318" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0.945996;stroke-width:0.248529"
+       id="rect1017"
+       width="210.24242"
+       height="86.47467"
+       x="0.30411598"
+       y="113.67413" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0.945996;stroke-width:0.264583"
+       id="rect1019"
+       width="33.100574"
+       height="39.289608"
+       x="18.60231"
+       y="148.06128" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0.945996;stroke-width:0.264583"
+       id="rect1019-0"
+       width="33.100574"
+       height="39.289608"
+       x="69.720093"
+       y="148.23631" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0.945996;stroke-width:0.264583"
+       id="rect1019-8"
+       width="33.100574"
+       height="39.289608"
+       x="114.30192"
+       y="148.11499" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0.945996;stroke-width:0.264583"
+       id="rect1019-6"
+       width="33.100574"
+       height="39.289608"
+       x="158.476"
+       y="148.61653" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0.945996;stroke-width:0.270726"
+       id="rect1059"
+       width="174.09265"
+       height="8.3520594"
+       x="18.812819"
+       y="131.77008" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="22.903313"
+       y="136.92296"
+       id="text880"><tspan
+         sodipodi:role="line"
+         id="tspan878"
+         x="22.903313"
+         y="136.92296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#dfb162;fill-opacity:1;stroke-width:0.264583">Recent items</tspan><tspan
+         sodipodi:role="line"
+         x="22.903313"
+         y="139.20222"
+         style="stroke-width:0.264583"
+         id="tspan882" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="169.25035"
+       y="137.767"
+       id="text886"><tspan
+         sodipodi:role="line"
+         id="tspan884"
+         x="169.25035"
+         y="137.767"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#dfb162;fill-opacity:1;stroke-width:0.264583">View More</tspan></text>
+    <rect
+       style="fill:#191919;fill-opacity:0.945996;stroke-width:0.366937"
+       id="rect888"
+       width="209.91141"
+       height="59.739983"
+       x="0.30411598"
+       y="200.14879" />
+    <rect
+       style="fill:#191919;fill-opacity:0.945996;stroke-width:0.264583"
+       id="rect882"
+       width="122.79374"
+       height="19.59004"
+       x="19.663767"
+       y="206.52245" />
+    <rect
+       style="fill:#dfb162;fill-opacity:1;stroke-width:0.264583"
+       id="rect884"
+       width="122.79374"
+       height="19.59004"
+       x="19.663767"
+       y="206.52245" />
+    <rect
+       style="fill:#dfb162;fill-opacity:1;stroke-width:0.264583"
+       id="rect884-3"
+       width="122.79374"
+       height="19.59004"
+       x="19.887436"
+       y="234.89548" />
+    <rect
+       style="fill:#dfb162;fill-opacity:1;stroke-width:0.292161"
+       id="rect917"
+       width="44.405918"
+       height="47.098621"
+       x="157.49004"
+       y="207.81113" />
+  </g>
+</svg>
