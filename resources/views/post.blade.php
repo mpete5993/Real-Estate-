@@ -45,9 +45,11 @@
                 </div>
                 <div class="blog-comment-container">
                     <div class="comment-header">
-                        <h6>Comments</h6>
+                        <h6><i class="fa fa-comments-o" aria-hidden="true"></i> Comments</h6>
                     </div>
-                    @foreach ($post->comments as $comment)
+                    @if ($comments->count() > 0)
+                        
+                    @foreach ($comments as $comment)
                         <div class="post-comment">
                             <div class="comment-img">
                                 <div class="">
@@ -64,7 +66,18 @@
                             </div>
                         </div>
                     @endforeach
-
+                    @else
+                    <div class="comment-user-info">
+                        <span class=""> Be the first to comment <i class="fa fa-hand-o-down" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    @endif
+                        <div class="my-2 p-2">
+                            {{ $comments->links() }}
+                        </div>
+                        <div class="comment-user-info">
+                            <span class=""> showing {{$comments->count() }} - {{ $comments->total() }} comments</span>
+                        </div>
                     <div class="comment-form">
                         @guest
                             <a href=" {{route('login')}} " class="learn_more">
@@ -75,7 +88,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h6>Leave your Comment</h6>
+                                    <h6><i class="fa fa-comment" aria-hidden="true" style="color: #ddd;"></i> Leave your Comment</h6>
                                 </div>
                             </div>
                             <form action=" {{ route('comments.store', $post->id)}} " method="post">

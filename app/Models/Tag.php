@@ -20,5 +20,6 @@ class Tag extends Model
     public function  PostTags($post){
         return null !== $this->post()->where('name', $tag)->first();
     }
+    
     use HasFactory;
 }

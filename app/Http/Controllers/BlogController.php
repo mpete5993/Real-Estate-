@@ -93,6 +93,7 @@ class BlogController extends Controller
             'categories' => Category::all(),
             'tags' => Tag::all(),
             'popularPosts' => Post::inRandomOrder()->take(3)->get(),
+            'comments' => $post->comments()->paginate(4)
         ]);
     }
 
