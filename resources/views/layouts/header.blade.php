@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
-    <link rel="stylesheet" href=" {{asset('css/bootstrap.css')}} ">
-    <link rel="stylesheet" href=" {{ asset('css/style.css')}} ">
-    <link rel="stylesheet" href=" {{asset('css/blog.css')}} ">
-    <link rel="stylesheet" href="{{ asset('css/property.css')}}">
-    <link rel="stylesheet" href=" {{ asset('css/about.css')}} ">
+    <link rel="stylesheet" href="{{secure_asset('css/font-awesome.css')}}">
+    <link rel="stylesheet" href=" {{secure_asset('css/bootstrap.css')}} ">
+    <link rel="stylesheet" href=" {{ secure_asset('css/style.css')}} ">
+    <link rel="stylesheet" href=" {{secure_asset('css/blog.css')}} ">
+    <link rel="stylesheet" href="{{ secure_asset('css/property.css')}}">
+    <link rel="stylesheet" href=" {{ secure_asset('css/about.css')}} ">
     @toastr_css
     <title>Real Estate</title>
 </head>
@@ -40,7 +40,7 @@
                 @if (Route::has('login'))
                 <a href="{{ route('login') }}"">LOGIN</a>
                 @endif
-                
+
                 @if (Route::has('register'))
                 <a href="{{ route('register') }}">REGISTER</a>
                 @endif
@@ -69,4 +69,3 @@
     </nav>
 
     <!---===== Navigation ====== ---->
-

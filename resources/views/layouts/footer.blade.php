@@ -69,9 +69,9 @@
 
 
 
-    
 
-    <script src=" {{asset('js/main.js')}} "></script>
+
+    <script src=" {{secure_asset('js/main.js')}} "></script>
     <script>
         //get all buttons
         let tabButtons = document.querySelectorAll('.tabs button');
@@ -87,7 +87,7 @@
 
             });
 
-            //setting background & color of the current button to 
+            //setting background & color of the current button to
             tabButtons[panelIndex].style.backgroundColor = colorCode;
             tabButtons[panelIndex].style.color = "#fff";
 
